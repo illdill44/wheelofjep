@@ -1,0 +1,84 @@
+
+#class wheel_spin(object):
+#def __init__(wheel_spin):
+import random
+        #spin wheel, grab random sector out of 12 sectors
+wheel_spin = ['double_score', 'lose_turn', 'free_turn', 'bankrupt', 'players_choice', 'opponents_choice',
+                  'category_1', 'category_2', 'category_3', 'category_4', 'category_5', 'category_6']
+landed_sector = (random.choice(wheel_spin))
+
+if landed_sector == 'double_score':
+    # ask lowest difficulty question in current category
+        # if selected answer == correct answer
+            # team's score = score*2
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'lose_turn':
+    # next team's turn
+
+elif landed_sector == 'free_turn':
+    # ask lowest difficulty question in current category
+        # if selected answer == correct answer
+            # increment free turn class +1 ... class = class +1
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'bankrupt':
+    #set team's score class to zero
+    #next players turn to spin
+
+elif landed_sector == 'players_choice':
+    # ask lowest difficulty question in  player selected category
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'opponents_choice':
+    # ask lowest difficulty question in  other team selected category
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_1':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_2':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_3':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_4':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_5':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
+
+elif landed_sector == 'category_6':
+    # ask lowest difficulty question in category 1 
+        # if selected answer == correct answer
+            # team's score = score + question value
+            # team spins again turn to spin
+        # elif answer != correct answer: next team's turn
